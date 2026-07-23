@@ -122,7 +122,7 @@
 
 **综合评级**:{{推荐/观望/回避}}(加权 {{X.X}} / 5.0)
 
-**详细报告**:见 `output/{{ticker}}/report.pdf`
+**详细报告**:见 `output/{{ticker}}/` 目录下的 `{{name}}({{ticker}})投资分析报告.pdf`
 
 ### 2. {{ticker}} {{name}}
 

@@ -89,8 +89,10 @@ python scripts/plot_etf_charts.py --out-dir ./output/半导体
 完成 Markdown 报告 `report.md` 后,跑 `scripts/generate_pdf.py`(复用 stock-investment-analysis 的同名脚本):
 
 ```bash
-python scripts/generate_pdf.py --md ./output/半导体/report.md --pdf ./output/半导体/report.pdf
+python scripts/generate_pdf.py --md ./output/半导体/report.md --pdf "./output/半导体/半导体ETF资金流向分析报告.pdf"
 ```
+
+**文件名规则**:`{主题}ETF资金流向分析报告.pdf`。主题取用户问的行业(如"半导体""医药""新能源")或"全市场"。用户问哪个行业的 ETF,PDF 名就对应那个行业。
 
 ## 四维度分析框架
 
