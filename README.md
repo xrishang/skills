@@ -1,6 +1,6 @@
-# Skills · Claude Code 投资分析 Skill 集合
+# Skills · Claude Code Skill 集合
 
-> 本仓库包含面向 Claude 的投资分析 skills 实现。关于 Agent Skills 标准的说明,见 [agentskills.io](https://agentskills.io)。
+> 本仓库包含面向 Claude 的 skills 实现。关于 Agent Skills 标准的说明,见 [agentskills.io](https://agentskills.io)。
 
 ## Skills 是什么
 
