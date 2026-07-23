@@ -1,0 +1,591 @@
+{
+  "mode": "industry",
+  "keyword": "半导体",
+  "analysis_time": "2026-07-22 17:30:18.748200",
+  "weights": {
+    "fund_flow": 0.35,
+    "liquidity": 0.25,
+    "technical": 0.2,
+    "industry": 0.2
+  },
+  "ranking_by": "weighted_score",
+  "results": [
+    {
+      "ticker": "560780",
+      "name": "半导体设备ETF广发",
+      "close": 1.103,
+      "pct_change": 3.76,
+      "technical": {
+        "current_price": 1.063,
+        "MA": {
+          "MA5": 1.0676,
+          "MA10": 1.2044,
+          "MA20": 1.5179,
+          "MA60": 2.2967,
+          "MA120": 2.1252,
+          "MA250": 1.8076
+        },
+        "MACD": {
+          "DIF": -0.3979,
+          "DEA": -0.3802,
+          "MACD": -0.0354,
+          "signal": "死叉"
+        },
+        "RSI": {
+          "RSI": 28.94,
+          "signal": "超卖"
+        },
+        "KDJ": {
+          "K": 12.64,
+          "D": 13.37,
+          "J": 11.18,
+          "signal": "中性"
+        },
+        "52w_high": 3.777,
+        "52w_low": 0.966,
+        "price_position_pct": 3.45,
+        "trend": "震荡",
+        "data_days": 250
+      },
+      "fund_flow": {
+        "main_net_inflow": 75179952.0,
+        "main_net_pct": 4.48,
+        "super_large_net_inflow": 103146608.0,
+        "large_net_inflow": -27966656.0,
+        "medium_net_inflow": null,
+        "small_net_inflow": null,
+        "direction": "净流入",
+        "strength": "中",
+        "dominant": "超大单主导"
+      },
+      "liquidity": {
+        "amount": 1676296268.0,
+        "volume": 14955084.0,
+        "total_mcap": 11520270193.0,
+        "float_mcap": 11520270193.0,
+        "turnover": 14.32,
+        "shares": 10444487936.0,
+        "liquidity_grade": "高",
+        "scale_grade": "大"
+      },
+      "industry": {
+        "industry": "半导体",
+        "name": "半导体设备ETF广发",
+        "tracking_index": "国证半导体芯片",
+        "note": "行业 PE 分位需联网获取,当前环境暂不可用"
+      },
+      "scores": {
+        "fund_flow": 4,
+        "liquidity": 5,
+        "technical": 3,
+        "industry": 3
+      },
+      "score_reasons": {
+        "fund_flow": "主力中等净流入",
+        "liquidity": "高流动性 + 大规模",
+        "technical": "震荡,价格位置 3.45%",
+        "industry": "行业=半导体,跟踪指数=国证半导体芯片"
+      },
+      "weighted_score": 3.85
+    },
+    {
+      "ticker": "159516",
+      "name": "半导体设备ETF国泰",
+      "close": 0.747,
+      "pct_change": 2.75,
+      "technical": {
+        "current_price": 0.727,
+        "MA": {
+          "MA5": 0.7268,
+          "MA10": 0.9979,
+          "MA20": 1.3985,
+          "MA60": 1.2772,
+          "MA120": 1.4024,
+          "MA250": 1.389
+        },
+        "MACD": {
+          "DIF": -0.2079,
+          "DEA": -0.0925,
+          "MACD": -0.2308,
+          "signal": "死叉"
+        },
+        "RSI": {
+          "RSI": 15.97,
+          "signal": "超卖"
+        },
+        "KDJ": {
+          "K": 5.0,
+          "D": 8.5,
+          "J": -2.0,
+          "signal": "超卖"
+        },
+        "52w_high": 1.993,
+        "52w_low": 0.661,
+        "price_position_pct": 4.95,
+        "trend": "空头排列",
+        "data_days": 250
+      },
+      "fund_flow": {
+        "main_net_inflow": 272576928.0,
+        "main_net_pct": 3.38,
+        "super_large_net_inflow": 736702896.0,
+        "large_net_inflow": -464125968.0,
+        "medium_net_inflow": null,
+        "small_net_inflow": null,
+        "direction": "净流入",
+        "strength": "中",
+        "dominant": "超大单主导"
+      },
+      "liquidity": {
+        "amount": 8064742301.858,
+        "volume": 106108671.0,
+        "total_mcap": 42560593920.0,
+        "float_mcap": 42560593920.0,
+        "turnover": 18.62,
+        "shares": 56975360000.0,
+        "liquidity_grade": "高",
+        "scale_grade": "大"
+      },
+      "industry": {
+        "industry": "半导体",
+        "name": "半导体设备ETF国泰",
+        "tracking_index": "国证半导体芯片",
+        "note": "行业 PE 分位需联网获取,当前环境暂不可用"
+      },
+      "scores": {
+        "fund_flow": 4,
+        "liquidity": 5,
+        "technical": 2,
+        "industry": 3
+      },
+      "score_reasons": {
+        "fund_flow": "主力中等净流入",
+        "liquidity": "高流动性 + 大规模",
+        "technical": "空头排列,价格位置 4.95%",
+        "industry": "行业=半导体,跟踪指数=国证半导体芯片"
+      },
+      "weighted_score": 3.65
+    },
+    {
+      "ticker": "562590",
+      "name": "半导体设备ETF华夏",
+      "close": 1.059,
+      "pct_change": 3.93,
+      "technical": {
+        "current_price": 1.019,
+        "MA": {
+          "MA5": 1.0234,
+          "MA10": 1.1518,
+          "MA20": 2.2441,
+          "MA60": 2.4596,
+          "MA120": 2.1624,
+          "MA250": 1.7899
+        },
+        "MACD": {
+          "DIF": -0.543,
+          "DEA": -0.4031,
+          "MACD": -0.2798,
+          "signal": "死叉"
+        },
+        "RSI": {
+          "RSI": 6.91,
+          "signal": "超卖"
+        },
+        "KDJ": {
+          "K": 9.68,
+          "D": 7.06,
+          "J": 14.91,
+          "signal": "中性(金叉)"
+        },
+        "52w_high": 4.248,
+        "52w_low": 0.926,
+        "price_position_pct": 2.8,
+        "trend": "震荡",
+        "data_days": 250
+      },
+      "fund_flow": {
+        "main_net_inflow": 44791008.0,
+        "main_net_pct": 3.61,
+        "super_large_net_inflow": 205631520.0,
+        "large_net_inflow": -160840512.0,
+        "medium_net_inflow": null,
+        "small_net_inflow": null,
+        "direction": "净流入",
+        "strength": "中",
+        "dominant": "超大单主导"
+      },
+      "liquidity": {
+        "amount": 1241678978.0,
+        "volume": 11522326.0,
+        "total_mcap": 8427510478.0,
+        "float_mcap": 8427510478.0,
+        "turnover": 14.48,
+        "shares": 7957989120.0,
+        "liquidity_grade": "高",
+        "scale_grade": "中"
+      },
+      "industry": {
+        "industry": "半导体",
+        "name": "半导体设备ETF华夏",
+        "tracking_index": "国证半导体芯片",
+        "note": "行业 PE 分位需联网获取,当前环境暂不可用"
+      },
+      "scores": {
+        "fund_flow": 4,
+        "liquidity": 4,
+        "technical": 3,
+        "industry": 3
+      },
+      "score_reasons": {
+        "fund_flow": "主力中等净流入",
+        "liquidity": "流动性好或规模大",
+        "technical": "震荡,价格位置 2.8%",
+        "industry": "行业=半导体,跟踪指数=国证半导体芯片"
+      },
+      "weighted_score": 3.6
+    },
+    {
+      "ticker": "159558",
+      "name": "半导体设备ETF易方达",
+      "close": 1.174,
+      "pct_change": 3.99,
+      "technical": {
+        "error": "无历史价格文件"
+      },
+      "fund_flow": {
+        "main_net_inflow": 4180576.0,
+        "main_net_pct": 0.12,
+        "super_large_net_inflow": 187805184.0,
+        "large_net_inflow": -183624608.0,
+        "medium_net_inflow": null,
+        "small_net_inflow": null,
+        "direction": "净流入",
+        "strength": "弱",
+        "dominant": "超大单主导"
+      },
+      "liquidity": {
+        "amount": 3574815099.83,
+        "volume": 29983637.0,
+        "total_mcap": 19518412023.0,
+        "float_mcap": 19518412023.0,
+        "turnover": 18.03,
+        "shares": 16625563904.0,
+        "liquidity_grade": "高",
+        "scale_grade": "大"
+      },
+      "industry": {
+        "industry": "半导体",
+        "name": "半导体设备ETF易方达",
+        "tracking_index": "国证半导体芯片",
+        "note": "行业 PE 分位需联网获取,当前环境暂不可用"
+      },
+      "scores": {
+        "fund_flow": 3,
+        "liquidity": 5,
+        "technical": 3,
+        "industry": 3
+      },
+      "score_reasons": {
+        "fund_flow": "主力弱净流入",
+        "liquidity": "高流动性 + 大规模",
+        "technical": "技术指标数据不足",
+        "industry": "行业=半导体,跟踪指数=国证半导体芯片"
+      },
+      "weighted_score": 3.5
+    },
+    {
+      "ticker": "159995",
+      "name": "芯片ETF华夏",
+      "close": 1.312,
+      "pct_change": -0.38,
+      "technical": {
+        "error": "无历史价格文件"
+      },
+      "fund_flow": {
+        "main_net_inflow": 1565696.0,
+        "main_net_pct": 0.1,
+        "super_large_net_inflow": 84831296.0,
+        "large_net_inflow": -83265600.0,
+        "medium_net_inflow": null,
+        "small_net_inflow": null,
+        "direction": "净流入",
+        "strength": "弱",
+        "dominant": "超大单主导"
+      },
+      "liquidity": {
+        "amount": 1597771835.51,
+        "volume": 11943892.0,
+        "total_mcap": 30413637501.0,
+        "float_mcap": 30413637501.0,
+        "turnover": 5.15,
+        "shares": 23181126144.0,
+        "liquidity_grade": "高",
+        "scale_grade": "大"
+      },
+      "industry": {
+        "industry": "半导体",
+        "name": "芯片ETF华夏",
+        "tracking_index": "中证全指半导体",
+        "note": "行业 PE 分位需联网获取,当前环境暂不可用"
+      },
+      "scores": {
+        "fund_flow": 3,
+        "liquidity": 5,
+        "technical": 3,
+        "industry": 3
+      },
+      "score_reasons": {
+        "fund_flow": "主力弱净流入",
+        "liquidity": "高流动性 + 大规模",
+        "technical": "技术指标数据不足",
+        "industry": "行业=半导体,跟踪指数=中证全指半导体"
+      },
+      "weighted_score": 3.5
+    },
+    {
+      "ticker": "159801",
+      "name": "芯片ETF广发",
+      "close": 1.297,
+      "pct_change": 0.08,
+      "technical": {
+        "error": "无历史价格文件"
+      },
+      "fund_flow": {
+        "main_net_inflow": 7919329.0,
+        "main_net_pct": 1.65,
+        "super_large_net_inflow": 56139828.0,
+        "large_net_inflow": -48220499.0,
+        "medium_net_inflow": null,
+        "small_net_inflow": null,
+        "direction": "净流入",
+        "strength": "弱",
+        "dominant": "超大单主导"
+      },
+      "liquidity": {
+        "amount": 479123254.965,
+        "volume": 3617928.0,
+        "total_mcap": 5788666806.0,
+        "float_mcap": 5788666806.0,
+        "turnover": 8.11,
+        "shares": 4463120128.0,
+        "liquidity_grade": "中",
+        "scale_grade": "中"
+      },
+      "industry": {
+        "industry": "半导体",
+        "name": "芯片ETF广发",
+        "tracking_index": "中证全指半导体",
+        "note": "行业 PE 分位需联网获取,当前环境暂不可用"
+      },
+      "scores": {
+        "fund_flow": 3,
+        "liquidity": 3,
+        "technical": 3,
+        "industry": 3
+      },
+      "score_reasons": {
+        "fund_flow": "主力弱净流入",
+        "liquidity": "流动性适中",
+        "technical": "技术指标数据不足",
+        "industry": "行业=半导体,跟踪指数=中证全指半导体"
+      },
+      "weighted_score": 3.0
+    },
+    {
+      "ticker": "562820",
+      "name": "集成电路ETF嘉实",
+      "close": 3.264,
+      "pct_change": -0.18,
+      "technical": {
+        "error": "无历史价格文件"
+      },
+      "fund_flow": {
+        "main_net_inflow": 1582040.0,
+        "main_net_pct": 2.53,
+        "super_large_net_inflow": 1927576.0,
+        "large_net_inflow": -345536.0,
+        "medium_net_inflow": null,
+        "small_net_inflow": null,
+        "direction": "净流入",
+        "strength": "弱",
+        "dominant": "超大单主导"
+      },
+      "liquidity": {
+        "amount": 62647567.0,
+        "volume": 189186.0,
+        "total_mcap": 398651904.0,
+        "float_mcap": 398651904.0,
+        "turnover": 15.49,
+        "shares": 122136000.0,
+        "liquidity_grade": "低",
+        "scale_grade": "小"
+      },
+      "industry": {
+        "industry": "半导体",
+        "name": "集成电路ETF嘉实",
+        "tracking_index": null,
+        "note": "行业 PE 分位需联网获取,当前环境暂不可用"
+      },
+      "scores": {
+        "fund_flow": 3,
+        "liquidity": 2,
+        "technical": 3,
+        "industry": 3
+      },
+      "score_reasons": {
+        "fund_flow": "主力弱净流入",
+        "liquidity": "流动性偏低",
+        "technical": "技术指标数据不足",
+        "industry": "行业=半导体,跟踪指数=未知"
+      },
+      "weighted_score": 2.75
+    },
+    {
+      "ticker": "159310",
+      "name": "芯片ETF天弘",
+      "close": 3.197,
+      "pct_change": -3.03,
+      "technical": {
+        "error": "无历史价格文件"
+      },
+      "fund_flow": {
+        "main_net_inflow": 63556.0,
+        "main_net_pct": 0.09,
+        "super_large_net_inflow": 1074069.0,
+        "large_net_inflow": -1010513.0,
+        "medium_net_inflow": null,
+        "small_net_inflow": null,
+        "direction": "净流入",
+        "strength": "弱",
+        "dominant": "超大单主导"
+      },
+      "liquidity": {
+        "amount": 71632744.0,
+        "volume": 218948.0,
+        "total_mcap": 1572863538.0,
+        "float_mcap": 1572863538.0,
+        "turnover": 4.45,
+        "shares": 491981088.0,
+        "liquidity_grade": "低",
+        "scale_grade": "小"
+      },
+      "industry": {
+        "industry": "半导体",
+        "name": "芯片ETF天弘",
+        "tracking_index": "中证全指半导体",
+        "note": "行业 PE 分位需联网获取,当前环境暂不可用"
+      },
+      "scores": {
+        "fund_flow": 3,
+        "liquidity": 2,
+        "technical": 3,
+        "industry": 3
+      },
+      "score_reasons": {
+        "fund_flow": "主力弱净流入",
+        "liquidity": "流动性偏低",
+        "technical": "技术指标数据不足",
+        "industry": "行业=半导体,跟踪指数=中证全指半导体"
+      },
+      "weighted_score": 2.75
+    },
+    {
+      "ticker": "589290",
+      "name": "科创芯片设计ETF汇添富",
+      "close": 0.853,
+      "pct_change": -1.39,
+      "technical": {
+        "error": "无历史价格文件"
+      },
+      "fund_flow": {
+        "main_net_inflow": -464426.0,
+        "main_net_pct": -3.32,
+        "super_large_net_inflow": 1488861.0,
+        "large_net_inflow": -1953287.0,
+        "medium_net_inflow": null,
+        "small_net_inflow": null,
+        "direction": "净流出",
+        "strength": "中",
+        "dominant": "大单主导"
+      },
+      "liquidity": {
+        "amount": 13996572.0,
+        "volume": 160340.0,
+        "total_mcap": 119291112.0,
+        "float_mcap": 119291112.0,
+        "turnover": 11.47,
+        "shares": 139848900.0,
+        "liquidity_grade": "低",
+        "scale_grade": "小"
+      },
+      "industry": {
+        "industry": "半导体",
+        "name": "科创芯片设计ETF汇添富",
+        "tracking_index": "中证全指半导体",
+        "note": "行业 PE 分位需联网获取,当前环境暂不可用"
+      },
+      "scores": {
+        "fund_flow": 2,
+        "liquidity": 2,
+        "technical": 3,
+        "industry": 3
+      },
+      "score_reasons": {
+        "fund_flow": "主力中等净流出",
+        "liquidity": "流动性偏低",
+        "technical": "技术指标数据不足",
+        "industry": "行业=半导体,跟踪指数=中证全指半导体"
+      },
+      "weighted_score": 2.4
+    },
+    {
+      "ticker": "589260",
+      "name": "科创芯片设计ETF国泰",
+      "close": 1.336,
+      "pct_change": -1.18,
+      "technical": {
+        "error": "无历史价格文件"
+      },
+      "fund_flow": {
+        "main_net_inflow": -619591.0,
+        "main_net_pct": -4.14,
+        "super_large_net_inflow": 570385.0,
+        "large_net_inflow": -1189976.0,
+        "medium_net_inflow": null,
+        "small_net_inflow": null,
+        "direction": "净流出",
+        "strength": "中",
+        "dominant": "大单主导"
+      },
+      "liquidity": {
+        "amount": 14958713.0,
+        "volume": 110267.0,
+        "total_mcap": 73688416.0,
+        "float_mcap": 73688416.0,
+        "turnover": 19.99,
+        "shares": 55156000.0,
+        "liquidity_grade": "低",
+        "scale_grade": "小"
+      },
+      "industry": {
+        "industry": "半导体",
+        "name": "科创芯片设计ETF国泰",
+        "tracking_index": "中证全指半导体",
+        "note": "行业 PE 分位需联网获取,当前环境暂不可用"
+      },
+      "scores": {
+        "fund_flow": 2,
+        "liquidity": 2,
+        "technical": 3,
+        "industry": 3
+      },
+      "score_reasons": {
+        "fund_flow": "主力中等净流出",
+        "liquidity": "流动性偏低",
+        "technical": "技术指标数据不足",
+        "industry": "行业=半导体,跟踪指数=中证全指半导体"
+      },
+      "weighted_score": 2.4
+    }
+  ]
+}
