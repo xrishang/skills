@@ -1,4 +1,4 @@
-"""generate_pdf.py — 把 report.md + charts/*.png 合并生成 PDF 报告
+"""generate_pdf.py — 把 report.md + charts/*.png 合并生成 HTML + PDF 报告(同名,均保留)
 
 实现方式:Markdown → HTML(带 CSS)→ 调用本机浏览器 headless 渲染 → PDF
 
@@ -11,7 +11,7 @@
 图片路径在 HTML 里用绝对 file:// URL,浏览器能直接读本地文件。
 
 使用:
-    python scripts/generate_pdf.py --md output/01956.HK/report.md --pdf output/01956.HK/report.pdf
+    python scripts/generate_pdf.py --md "output/600519/贵州茅台(600519)投资分析报告.md" --pdf "output/600519/贵州茅台(600519)投资分析报告.pdf"
 """
 from __future__ import annotations
 import argparse
@@ -19,7 +19,6 @@ import sys
 import re
 import shutil
 import subprocess
-import tempfile
 from pathlib import Path
 from urllib.parse import quote
 
@@ -329,7 +328,6 @@ def main():
     parser = argparse.ArgumentParser(description='Markdown 报告 → PDF(浏览器渲染)')
     parser.add_argument('--md', required=True, help='report.md 路径')
     parser.add_argument('--pdf', default=None, help='输出 PDF 路径(默认从 H1 标题推断汉字名)')
-    parser.add_argument('--keep-html', action='store_true', help='保留中间 HTML 文件(调试用)')
     args = parser.parse_args()
 
     md_path = Path(args.md).resolve()
@@ -360,12 +358,9 @@ def main():
     md_text = md_path.read_text(encoding='utf-8')
     html = md_to_html(md_text, md_path.parent)
 
-    # 写临时 HTML
-    with tempfile.NamedTemporaryFile(
-        mode='w', suffix='.html', delete=False, encoding='utf-8'
-    ) as tmp:
-        tmp.write(html)
-        html_path = Path(tmp.name)
+    # 写 HTML(与 PDF 同名,作为交付物保留)
+    html_path = pdf_path.with_suffix('.html')
+    html_path.write_text(html, encoding='utf-8')
 
     try:
         html_to_pdf(html_path, pdf_path, browser)
@@ -373,20 +368,16 @@ def main():
     except Exception as e:
         print(f'PDF 生成失败: {type(e).__name__}: {e}', file=sys.stderr)
         sys.exit(4)
-    finally:
-        if not args.keep_html:
-            try:
-                html_path.unlink()
-            except Exception:
-                pass
 
     if not pdf_path.exists():
         print('错误: PDF 未生成,未知原因', file=sys.stderr)
         sys.exit(5)
 
     size_kb = pdf_path.stat().st_size / 1024
+    html_kb = html_path.stat().st_size / 1024
     print(f'[generate_pdf] 浏览器: {Path(browser).name}', file=sys.stderr)
-    print(f'[generate_pdf] 输出: {pdf_path} ({size_kb:.1f} KB)', file=sys.stderr)
+    print(f'[generate_pdf] 输出 PDF: {pdf_path} ({size_kb:.1f} KB)', file=sys.stderr)
+    print(f'[generate_pdf] 输出 HTML: {html_path} ({html_kb:.1f} KB)', file=sys.stderr)
 
 
 if __name__ == '__main__':
